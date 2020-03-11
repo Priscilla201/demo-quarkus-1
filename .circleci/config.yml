@@ -38,7 +38,7 @@ jobs:
       - save_cache:
           paths:
             - ~/.m2
-          key: v1-quarkus-pri-{{ checksum "pom.xml" }}
+          key: v1-quarkus-Priscilla201-{{ checksum "pom.xml" }}
 
       # Standard maven build and test phases - does not perform a native build (or verify)
       # ########################
